@@ -37,17 +37,4 @@ This project aims to forecast the stock price of the State Bank of India (SBI) b
 - The best-tuned ARIMA(2,1,2) model was able to predict the SBI stock price with high accuracy for the next 60 days.
 - The RMSE value of **7.914** reflects the model's ability to closely match the actual stock price data.
 
-## Files in Repository
 
-- `data/` : Folder containing the historical stock price data of SBI.
-- `notebooks/` : Jupyter notebooks used for data analysis, model building, and evaluation.
-- `models/` : Saved models and tuning parameters.
-- `results/` : Plots and visualizations of the forecasting results.
-- `README.md` : This file.
-
-## Installation and Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/SBI-stock-price-forecasting.git
-   cd SBI-stock-price-forecasting
